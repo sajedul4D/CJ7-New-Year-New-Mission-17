@@ -352,63 +352,128 @@ gap: 10px;
       rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
   }
   .subscribe_part {
-    margin: 120px 140px;
-    border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
-    padding: 80px 212px;
+  margin: 120px 140px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  padding: 80px 212px;
+}
+.subscribe_img {
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
+.subscribe_head {
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: #070211;
+  text-transform: capitalize;
+  margin-bottom: 22px;
+}
+.subcribe_description {
+  width: 896px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Inter', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 32px;
+}
+.subscribe_button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+.subscribe_button input {
+  width: 438px;
+  border: none;
+  padding: 25px 30px;
+  border-radius: 50px 0px 0px 50px;
+}
+.button {
+  width: 210px;
+  padding: 20px 56px;
+  border: none;
+  border-radius: 0px 50px 50px 0px;
+  color: #fff;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+  background: #f00;
+  transition: all linear 0.3s;
+  cursor: pointer;
+}
+.button:hover {
+  background: yellow;
+  color: red;}
+  /* footer */
+  .footer_section {
+    padding: 120px 140px;
+    background: #070211;
   }
-  .subscribe_img {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
-    margin-bottom: 40px;
+  .footer_title_one {
+    display: flex;
+    gap: 559px;
+    align-items: center;
   }
-  .subscribe_head {
-    text-align: center;
-    font-family: 'Merriweather', serif;
-    font-size: 48px;
-    font-weight: 900;
-    color: #070211;
-    text-transform: capitalize;
-    margin-bottom: 22px;
-  }
-  .subcribe_description {
-    width: 896px;
-    color: rgba(7, 2, 17, 0.6);
-    text-align: center;
-    margin: 0 auto;
+  .footer_title {
+    color: #fff;
     font-family: 'Inter', sans-serif;
-    font-size: 20px;
-    font-weight: 400;
-    line-height: 32px;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
   }
-  .subscribe_button {
+  .phone {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    display: block;
+    text-decoration: none;
+  }
+  .website_link {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 40px;
+    text-decoration: none;
+  }
+  .socal_midea {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 48px;
+    gap: 24px;
+    margin: 98px;
   }
-  .subscribe_button input {
-    width: 438px;
-    border: none;
-    padding: 25px 30px;
-    border-radius: 50px 0px 0px 50px;
+  .footer_section_finish {
+    display: flex;
+    gap: 559px;
+    justify-content: space-around;
   }
-  .button {
-    width: 210px;
-    padding: 20px 56px;
-    border: none;
-    border-radius: 0px 50px 50px 0px;
+  .footer_copy {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .footer_unsubscribes {
     color: #fff;
     font-family: Inter;
-    font-size: 20px;
-    font-weight: 600;
-    text-transform: capitalize;
-    background: #f00;
-    transition: all linear 0.3s;
-    cursor: pointer;
+    font-size: 16px;
+    font-weight: 500;
   }
-  .button:hover {
-    background: yellow;
-    color: red;
+  .line_hr {
+    width: 1320px;
+    height: 1px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background: rgba(255, 255, 255, 0.15);
   }

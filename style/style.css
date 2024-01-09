@@ -163,3 +163,77 @@ justify-content: center;
 align-items: center;
 gap: 10px;
 }
+.new-best {
+    display: flex;
+    justify-content: space-between;
+    background: #fff;
+    margin: 50px 140px 140px;
+    
+    
+  }
+  .best_offer {
+    color: red;
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 500;
+    
+    padding-top: 50px;
+  }
+  .best_offer_two {
+    color: #070211;
+    font-family: 'Merriweather', serif;
+    font-size: 48px;
+    font-weight: 900;
+    text-transform: capitalize;
+   
+    
+    padding-top:50px ;
+
+  }
+  .offer_description {
+    width: 393px;
+    color: rgba(7, 2, 17, 0.6);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    width: 393px;
+    height: 128px;
+    padding-top: 50px;
+  }
+  .offer_img {
+    width: 463px;
+    height: 463px;
+    flex-shrink: 0;
+    border-radius: 463px;
+    border: 15px solid red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .year {
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color:red;
+    text-align: center;
+    
+  }
+  .year_description {
+    
+    color: rgba(7, 2, 17, 0.6);
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;   
+    width: 276px;
+    height: 96px;
+    text-align: center;
+  }
+  .offer_img_two {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 276px;
+    padding-top: 80px;
+  }

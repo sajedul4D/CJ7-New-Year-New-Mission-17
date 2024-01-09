@@ -35,3 +35,40 @@ line-height: 90px;
 width: 632px;
 margin: 0 auto;
 }
+/* main */
+.contact-title{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 88px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.contact-part{
+    color: #F00;
+
+text-align: center;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.contact-rezo{
+    color: #070211;
+
+text-align: center;
+font-family: Inter;
+font-size: 48px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}

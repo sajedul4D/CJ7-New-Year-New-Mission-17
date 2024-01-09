@@ -119,6 +119,15 @@ line-height: 30px; /* 166.667% */
     align-items: center;
     flex-shrink: 0; 
 }
+.logo{
+    width: 1320px;
+    height: 600px;
+    flex-shrink: 0;
+    color: #FFF;
+}
+
+
+
 .mum{
 margin: 50px 120px 140px;
 background: linear-gradient( 180deg, rgba(255,0,0,0.1) 0%,
@@ -126,7 +135,7 @@ rgba(255,0,0,0)100%);
 padding: 100px 280px 110px 280px;
 text-align: center;
 }
-.mum{
+.hed{
     color: #070211;
 font-family: Inter;
 font-size: 30px;
@@ -144,4 +153,13 @@ font-style: normal;
 font-weight: 600;
 line-height: 56px; 
 text-transform: capitalize;
+}
+.join{
+    border-radius: 8px;
+background: #F00;
+    display: inline-flex;
+padding: 16px 32px;
+justify-content: center;
+align-items: center;
+gap: 10px;
 }

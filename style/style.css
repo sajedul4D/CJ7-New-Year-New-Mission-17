@@ -445,4 +445,35 @@ gap: 10px;
     line-height: 40px;
     text-decoration: none;
   }
-  
+  .socal_midea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin: 98px;
+  }
+  .footer_section_finish {
+    display: flex;
+    gap: 559px;
+    justify-content: space-around;
+  }
+  .footer_copy {
+    color: #fff;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .footer_unsubscribes {
+    color: #fff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .line_hr {
+    width: 1320px;
+    height: 1px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 60px;
+    background: rgba(255, 255, 255, 0.15);
+  }

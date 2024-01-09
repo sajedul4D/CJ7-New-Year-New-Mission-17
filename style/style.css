@@ -6,15 +6,22 @@
 }
 .banner{
     background-image: url(../resources/Banner\ Image.png);
-    padding: 177px 344px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     margin: 50px 140px 120px 140px;
     border-radius: 16px;
     position: relative;
-    
+    width: 1090px;
+    height: 500px;
+   
 }
+    
+
 .banner-title{
     color: #FFF;
 
@@ -28,7 +35,7 @@ margin: 0 auto;
 }
 .banner-part{
     color: #FFF;
-   
+   text-align: center;
 font-size: 72px;
 font-style: normal;
 font-weight: 900;
@@ -74,8 +81,8 @@ line-height: normal;
    
 }
 .banner-description{
-    padding: 126px 138px 127px 126px;
-    margin: 120px 120px 140px;
+  
+    margin: 120px 120px 120px;
     background-image: url(../resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -85,8 +92,8 @@ line-height: normal;
     align-items: center;
     justify-content:space-between ;
     position: relative;
-    width: 950px;
-height: 500px; 
+    width: 1090px;
+height: 600px; 
 }
 
 
@@ -99,6 +106,7 @@ font-style: normal;
 font-weight: 900;
 line-height: 88px; /* 137.5% */
 letter-spacing: 7.04px;
+padding-left: 50px;
 }
 .description-part{
     color: rgba(255, 255, 255, 0.80);
@@ -108,12 +116,13 @@ font-size: 18px;
 font-style: normal;
 font-weight: 400;
 line-height: 30px; /* 166.667% */
+padding-left:50px ;
 }
 .picture{
     display: flex;
     width: 319.83px;
     height: 464.662px;
-    padding: 0.008px 0px 0px 0px;
+    
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -124,6 +133,7 @@ line-height: 30px; /* 166.667% */
     height: 600px;
     flex-shrink: 0;
     color: #FFF;
+    padding: 50px;
 }
 
 
@@ -165,10 +175,11 @@ gap: 10px;
 }
 .new-best {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     background: #fff;
     margin: 50px 140px 140px;
-    
+    width: 1090px;
+
     
   }
   .best_offer {
@@ -202,8 +213,8 @@ gap: 10px;
     padding-top: 50px;
   }
   .offer_img {
-    width: 463px;
-    height: 463px;
+    width: 350px;
+    height: 350px;
     flex-shrink: 0;
     border-radius: 463px;
     border: 15px solid red;
@@ -280,19 +291,23 @@ gap: 10px;
       lightgray -59.98px 0px / 151.553% 100% no-repeat;
   }
   .funtion_img {
-    margin: 140px 240px;
-    width: 1625px;
-    height: 229px;
+    margin:50px 140px 140px;
+    width: 1090px;
+    /* height: 229px; */
     border-radius: 16px 0px 16px 16px;
-    background: #f00;
+    
     
     position: relative;
+  }
+  .rect{
+    width: 1090px;
   }
   
   .funtiom_img_two {
     position: absolute;
     top: -441px;
-    left: 40px;
+    left: -100px;
+    right:150px ;
   }
   .funtion_img_three {
     position: absolute;
@@ -341,7 +356,7 @@ gap: 10px;
   .protfolio_img {
     margin-top: 24px;
     border-radius: 16px;
-    width: 424px;
+    width: 324px;
     transition: all linear 0.3s;
     border-radius: 16px;
   }
